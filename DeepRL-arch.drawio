@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T16:19:12.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="cBBfu-f72FxNhlBkYxgx" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-27T17:34:38.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="SmJSBwQX7BW4-vxk5Vmv" version="13.6.5" type="github">
   <diagram id="azBLTt9X_g9BV_F1x30R" name="Page-1">
-    <mxGraphModel dx="2036" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2916" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YtY6zPXFFSkN8KXmVOl3-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="840" width="610" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="YtY6zPXFFSkN8KXmVOl3-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-370" y="220" width="970" height="580" as="geometry" />
+          <mxGeometry x="-370" y="220" width="1100" height="910" as="geometry" />
         </mxCell>
         <mxCell id="YtY6zPXFFSkN8KXmVOl3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeWidth=3;" vertex="1" parent="YtY6zPXFFSkN8KXmVOl3-5">
           <mxGeometry width="970" height="580" as="geometry" />
@@ -91,14 +94,11 @@
         <mxCell id="YtY6zPXFFSkN8KXmVOl3-37" value="&lt;ul&gt;&lt;li&gt;A2C&lt;br&gt;&lt;/li&gt;&lt;li&gt;DQN&lt;/li&gt;&lt;li&gt;PPO&lt;/li&gt;&lt;li&gt;DDPG&lt;/li&gt;&lt;li&gt;TD3&lt;/li&gt;&lt;li&gt;others (easily extendable)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="YtY6zPXFFSkN8KXmVOl3-24">
           <mxGeometry x="-10" y="40" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="YtY6zPXFFSkN8KXmVOl3-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="740" y="220" width="610" height="440" as="geometry" />
+        <mxCell id="YtY6zPXFFSkN8KXmVOl3-43" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Add state processing module &lt;br&gt;(observation modifier)&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Add action space module&lt;br&gt;(abstract actions, learned or manually defined)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;input and output of NN should be automatically defined.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;continuous - discrete - hybrid&lt;/li&gt;&lt;li&gt;depends on the state and action modules&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Test distributed/parallel execution for faster sampling&lt;/li&gt;&lt;li&gt;Document TimDocker class &lt;br&gt;(gym compliant wrapper of Lee&#39;s/Gaoyuan TIM simulator via VNC&lt;/li&gt;&lt;li&gt;Implement procedurally generated levels that test certain skills&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="980" width="530" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YtY6zPXFFSkN8KXmVOl3-42" value="Plausible TODOS:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="771" y="240" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="YtY6zPXFFSkN8KXmVOl3-43" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Add state processing module &lt;br&gt;(observation modifier)&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Add action space module&lt;br&gt;(abstract actions, learned or manually defined)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;input and output of NN should be automatically defined.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;continuous - discrete - hybrid&lt;/li&gt;&lt;li&gt;depends on the state and action modules&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="760" y="340" width="430" height="20" as="geometry" />
+          <mxGeometry x="-339" y="860" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
