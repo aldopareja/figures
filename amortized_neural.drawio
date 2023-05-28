@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T18:38:08.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uosyNyv6Tp4AGxrxasXn" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-28T18:41:15.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="e-puSzELlJtuJxi0VD25" version="20.8.16" type="github">
   <diagram name="Page-1" id="G-G4V4dbzoBnQzKpbB__">
     <mxGraphModel dx="1014" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -163,6 +163,9 @@
             <mxPoint x="170" y="259.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wKmAmS29Bb6uPi1jKADR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fillStyle=solid;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=21;endArrow=classicThin;endFill=1;fillColor=#000000;" edge="1" parent="1" source="wKmAmS29Bb6uPi1jKADR-38" target="wKmAmS29Bb6uPi1jKADR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wKmAmS29Bb6uPi1jKADR-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="240" width="40" height="40" as="geometry" />
         </mxCell>
@@ -186,6 +189,15 @@
         </mxCell>
         <mxCell id="wKmAmS29Bb6uPi1jKADR-42" value="$$f_\theta(x)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="400" y="188" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKmAmS29Bb6uPi1jKADR-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKmAmS29Bb6uPi1jKADR-45" value="$$f_\theta(x)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="520" y="186" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKmAmS29Bb6uPi1jKADR-46" value="$$e$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="520" y="195" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
